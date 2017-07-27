@@ -1,0 +1,77 @@
+.message {
+    position: relative;
+    width: 100%;
+    min-height: 80px;
+    margin-bottom: 20px;
+}
+
+.message .content {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.message.left .content {
+    padding-left: 90px;
+    background-color: #E1E9ED;
+    color: #4A4D54;
+}
+.message.right .content {
+    padding-right: 90px;
+    text-align: right;
+    background-color: #00B38F;
+    color: #FFF;
+}
+
+.message .date {
+    color: #313338;
+    padding-top: 5px;
+}
+
+.message.left .date {
+    text-align: right;
+    padding-right: 15px;
+}
+.message.right .date {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.message .authorcontainer {
+    position: absolute;
+    background: white;
+    height: 80px;
+    width: 80px;
+    top: -10px;
+}
+.message.left .authorcontainer {
+    left: -10px;
+    border-bottom-right-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+.message.right .authorcontainer {
+    border-bottom-left-radius: 80px;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    right: -10px;
+}
+
+.message .author {
+    margin: 5px;
+    background: green;
+    height: 70px;
+    width: 70px;
+    border-radius: 70px;
+    background-size: contain;
+}
+
+.message .img {
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+.message .caption {
+    margin: 0;
+    text-align: center;
+    font-style: italic;
+}
