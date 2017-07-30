@@ -11,7 +11,7 @@ export default class AppContainer extends React.PureComponent {
     state = {}
 
     componentWillMount() {
-        fetch('https://zapier.com/engine/rss/1256999/cuba')
+        fetch('https://zapier.com/engine/rss/1256999/cuba2')
             .then(res => res.ok ? res.text() : '')
             .then(content => new Promise((resolve, reject) => {
                 parseRSS(content, function (err, result) {
